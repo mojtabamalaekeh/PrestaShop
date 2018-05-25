@@ -299,7 +299,7 @@ class AdminImportControllerCore extends AdminController
                     'file_url' => array('label' => $this->trans('File URL', array(), 'Admin.Advparameters.Feature')),
                     'nb_downloadable' => array(
                         'label' => $this->trans('Number of allowed downloads', array(), 'Admin.Catalog.Feature'),
-                        'help' => $this->trans('Number of days this file can be accessed by customers. Set to zero for unlimited access.', array(), 'Admin.Catalog.Help'),
+                        'help' => $this->trans('Number of downloads allowed per customer. Set to 0 for unlimited downloads.', array(), 'Admin.Catalog.Help'),
                     ),
                     'date_expiration' => array('label' => $this->trans('Expiration date (yyyy-mm-dd)', array(), 'Admin.Advparameters.Feature')),
                     'nb_days_accessible' => array(
